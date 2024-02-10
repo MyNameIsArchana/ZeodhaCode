@@ -14,4 +14,12 @@ public class AdminPage extends FrameworkBase {
 		Assert.assertEquals(admin, "Admin");
 	}
 
+
+	public void verifyAdminPages() {
+
+		String admin = driver.findElement(By.xpath("")).getText();
+
+		Assert.assertEquals(admin, "Admin");
+	}
+
 }
