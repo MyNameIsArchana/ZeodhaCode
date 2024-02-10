@@ -29,4 +29,10 @@ public class HomePage extends FrameworkBase{
 
 	}
 
+	public void verifyTitleOfLogin() {
+		
+		String title=driver.getTitle();
+		
+		Assert.assertEquals(title, "Home");
+	}
 }
